@@ -1,0 +1,6 @@
+﻿## Элементы
+| Имя | Десятичное значение | Шестнадцатиричное значение |
+| --- | -- | -- |
+{{#each EnumElements}}
+| {{this.ConstValue.Value}} | {{this.ConstValue.Base10Value}} | {{this.ConstValue.Base16Value}} |
+{{/each}}

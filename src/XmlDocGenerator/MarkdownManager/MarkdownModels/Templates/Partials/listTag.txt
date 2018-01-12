@@ -1,0 +1,24 @@
+﻿
+{{#if IsTable}}
+{{#HasHeader}}
+|{{#each HeaderList}} {{this}} |{{/each}}
+|{{#each HeaderList}} --- |{{/each}}
+{{#HasItems}}
+{{#each ItemsList}}
+|{{#each this.Items}} {{this}} |{{/each}}
+{{/each}}
+{{/HasItems}}
+{{/HasHeader}}
+{{else if IsBullet}}
+{{#HasItems}}
+{{#each ItemsList}}
+{{#each this.Items}} - {{this}}{{/each}}
+{{/each}}
+{{/HasItems}}
+{{else}}
+{{#HasItems}}
+{{#each ItemsList}}
+1. {{#each this.Items}} - {{this}}{{/each}}
+{{/each}}
+{{/HasItems}}
+{{/if}}

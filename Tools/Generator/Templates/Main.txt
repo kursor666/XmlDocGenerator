@@ -1,0 +1,213 @@
+﻿# {{{#IsNested}}}Вложенный {{{/IsNested}}}{{{TypeForm}}} {{{Name}}}
+
+{{{#HasDescription}}}
+{{{Description}}}
+
+{{{/HasDescription}}}
+{{{#HasListDescription}}}
+{{{ListDescription}}}
+
+{{{/HasListDescription}}}
+{{{#HasNamespace}}}
+**Пространство имен:** {{{>link this}}})
+
+{{{/HasNamespace}}}
+{{{#HasModule}}}
+**Модуль:** {{{Module}}}
+{{{/HasModule}}}
+{{{#HasInheritance}}}
+### Иерархия наследования
+{{{#each InheritanceHierarchy}}}
+ * {{{>link this}}}
+{{{/each}}}
+
+{{{/HasInheritance}}}
+{{{#HasBaseInterfaces}}}
+### Реализует
+{{{#each BaseInterfaces}}}
+ * {{{>link this}}}
+ {{{/each}}}
+
+{{{/HasBaseInterfaces}}}
+{{{#HasArgsTypes}}}
+### Входные параметры
+| Имя | Описание |
+| --- | -------- |
+{{{#each ArgsTypes}}}
+|{{{>link this}}} {{{this.ParamName}}}| {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasArgsTypes}}}
+{{{#HasGenerics}}}
+### Универсальные параметры
+{{{#each Generics}}}
+*{{{this.Name}}}:*
+	{{{this.Description}}}
+{{{#this.HasConstraintTypes}}}
+##### Возможные типы
+{{{#each this.TypesList}}}
+   {{{>link this}}}
+{{{/each}}}
+{{{/this.HasConstraintTypes}}}
+{{{/each}}}
+
+{{{/HasGenerics}}}
+{{{#HasReturnType}}}
+### Возвращаемый тип
+{{{>link ReturnType}}}
+{{{ReturnType.Description}}}
+
+{{{/HasReturnType}}}
+{{{#HasExceptions}}}
+### Исключения
+| Имя | Описание |
+| --- | -------- |
+{{{#each Exceptions}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasExceptions}}}
+{{{#HasFieldType}}}
+### Тип поля
+{{{>link FieldType}}}
+{{{FieldType.Description}}}
+
+{{{/HasFieldType}}}
+{{{#HasConstructors}}}
+## Конструкторы
+| Имя | Описание |
+| --- | -------- |
+{{{#each Constructors}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasConstructors}}}
+{{{#HasMethods}}}
+## Методы
+| Имя | Описание |
+| --- | -------- |
+{{{#each Methods}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasMethods}}}
+{{{#HasProperties}}}
+## Свойства
+| Имя | Описание |
+| --- | -------- |
+{{{#each Properties}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasProperties}}}
+{{{#HasFields}}}
+## Поля
+| Имя | Описание |
+| --- | -------- |
+{{{#each Fields}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasFields}}}
+{{{#HasConsts}}}
+{{{>constElement this}}}
+
+{{{/HasConsts}}}
+{{{#HasEnumElements}}}
+{{{>enumElement this}}}
+
+{{{/HasEnumElements}}}
+{{{#HasEvents}}}
+## События
+| Имя | Описание |
+| --- | -------- |
+{{{#each Events}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasEvents}}}
+{{{#HasClasses}}}
+## Классы
+| Имя | Описание |
+| --- | -------- |
+{{{#each Classes}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasClasses}}}
+{{{#HasInterfaces}}}
+## Интерфейсы
+| Имя | Описание |
+| --- | -------- |
+{{{#each Interfaces}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasInterfaces}}}
+{{{#HasStructs}}}
+## Структуры
+| Имя | Описание |
+| --- | -------- |
+{{{#each Structs}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasStructs}}}
+{{{#HasEnums}}}
+## Перечисления
+| Имя | Описание |
+| --- | -------- |
+{{{#each Enums}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasEnums}}}
+{{{#HasDelegates}}}
+## Делегаты
+| Имя | Описание |
+| --- | -------- |
+{{{#each Delegates}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasDelegates}}}
+{{{#HasAttributes}}}
+## Аттрибуты
+| Имя | Описание |
+| --- | -------- |
+{{{#each Attributes}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasAttributes}}}
+{{{#HasNestedTypes}}}
+## Вложенные типы
+| Имя | Описание |
+| --- | -------- |
+{{{#each NestedTypes}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{{/each}}}
+
+{{{/HasNestedTypes}}}
+{{{#HasExample}}}
+```cs
+{{{Example}}}
+```
+
+{{{/HasExample}}}
+{{{#HasRemarks}}}
+### Заметки
+{{{Remarks}}}
+
+{{{/HasRemarks}}}
+{{{#HasSeealso}}}
+### См. также
+{{{#each Seealso}}}
+{{{>link this}}}
+{{{/each}}}
+
+{{{/HasSeealso}}}
+{{{#HasVersion}}}
+### Версия
+{{{Version}}}
+{{{/HasVersion}}}

@@ -1,0 +1,2361 @@
+!XmlDocGenerator.Util.TypeItems.StringTypeItems,%2520XmlDocGenerator,%2520Version=1.0.0.0,%2520Culture=neutral,%2520PublicKeyToken=null
+AssemblyName: TestProject2
+Attributes:
+  - Attributes:
+      - System.AttributeUsageAttribute
+    BaseInterfaces: null
+    BaseType: null
+    Constructors: null
+    Description: null
+    Events: null
+    Fields: null
+    FullName: &o6 TestProject2.Models.TestAttribute
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: null
+    Methods: null
+    Module: TestProject2.dll
+    Name: TestAttribute
+    Namespace: &o9 TestProject2.Models
+    NestedTypes: null
+    Properties: null
+    SubTypes: null
+    TypeForm: Attribute
+    Version: &o11 TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    XmlName: T:TestProject2.Models.TestAttribute
+Constructors:
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o17 TestAttribute
+    Description: null
+    FullName: TestProject2.Models.TestAttribute.TestAttribute()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestAttribute()
+    Namespace: TestProject2.Models
+    ShortName: *o17
+    TypeForm: &o22 Constructor
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestAttribute.#ctor
+  - ArgsTypes:
+      - System.String str
+      - System.Int64 int64
+    Attributes: []
+    DeclaredType: &o29 TestClassWithInheritance1
+    Description: "<member name=\"M:TestProject2.Models.TestClassWithInheritance1.#ctor(System.String,System.Int64)\">\r\n  <summary>\r\n    <seealso cref=\"M:TestProject2.Models.TestClassWithInheritance1.TestMethodWithTwoParams1(System.Int32,System.String)\" />\r\n            An enumeration containing the available robot actions. The available actions are:\r\n            <list type=\"table\"><listheader><term>Action</term><term>Description</term><term>Power Consumption</term></listheader><item><term>Forward</term><term>Move <see cref=\"M:TestProject2.Models.TestClassWithInheritance1.TestMethodWithTwoParams1(System.Int32,System.String)\" /> in a straight line.</term><term>50W</term></item><item><term><paramref name=\"str\" /></term><term>Move backwards in a straight line.</term><term>50W</term></item><item><term>RotateLeft</term><term>Rotate to the left.</term><term>30W</term></item><item><term>RotateRight</term><term>Rotate to the right.</term><term>30W</term></item><item><term>Dig</term><term>Tells the robot to dig and obtain a soil sample.</term><term>800W</term></item></list></summary>\r\n  <param name=\"str\">lol</param>\r\n  <param name=\"int64\">kek</param>\r\n</member>"
+    FullName: &o31 TestProject2.Models.TestClassWithInheritance1.TestClassWithInheritance1(System.String, System.Int64 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestClassWithInheritance1(System.String, System.Int64 )
+    Namespace: &o34 TestProject2.Models
+    ShortName: *o29
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.#ctor(System.String,System.Int64)
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o39 TestProject2.Models.TestClassWithInheritance1.TestClassWithInheritance1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestClassWithInheritance1()
+    Namespace: *o34
+    ShortName: *o29
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o46 TestGenericClass`2
+    Description: null
+    FullName: &o47 TestProject2.Models.TestGenericClass`2.TestGenericClass`2()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestGenericClass`2()
+    Namespace: &o50 TestProject2.Models
+    ShortName: *o46
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestGenericClass`2.#ctor
+  - ArgsTypes:
+      - System.Object object
+      - System.IntPtr method
+    Attributes: []
+    DeclaredType: &o57 MyTestDelegate
+    Description: null
+    FullName: TestProject2.Models.MyTestDelegate.MyTestDelegate(System.Object, System.IntPtr )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: MyTestDelegate(System.Object, System.IntPtr )
+    Namespace: &o61 TestProject2.Models
+    ShortName: *o57
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.MyTestDelegate.#ctor(System.Object,System.IntPtr)
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o66 TestNestedClass1
+    Description: null
+    FullName: &o67 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o66
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedClass1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o75 TestNestedProtectedClass1
+    Description: null
+    FullName: &o76 TestProject2.Models.TestClassWithInheritance1.TestNestedProtectedClass1.TestNestedProtectedClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedProtectedClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o75
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedProtectedClass1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o84 TestNestedInternalClass1
+    Description: null
+    FullName: &o85 TestProject2.Models.TestClassWithInheritance1.TestNestedInternalClass1.TestNestedInternalClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedInternalClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o84
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedInternalClass1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o93 TestNestedInheritanceClass1
+    Description: null
+    FullName: &o94 TestProject2.Models.TestClassWithInheritance1.TestNestedInheritanceClass1.TestNestedInheritanceClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedInheritanceClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o93
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedInheritanceClass1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o102 TestNestedInPublicClass1
+    Description: null
+    FullName: &o103 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInPublicClass1.TestNestedInPublicClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedInPublicClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o102
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedClass1+TestNestedInPublicClass1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o111 TestNestedInProtectedClass1
+    Description: null
+    FullName: &o112 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInProtectedClass1.TestNestedInProtectedClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedInProtectedClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o111
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedClass1+TestNestedInProtectedClass1.#ctor
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: &o120 TestNestedInInternalClass1
+    Description: null
+    FullName: &o121 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInInternalClass1.TestNestedInInternalClass1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: TestNestedInInternalClass1()
+    Namespace: TestProject2.Models
+    ShortName: *o120
+    TypeForm: *o22
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1+TestNestedClass1+TestNestedInInternalClass1.#ctor
+Delegates:
+  - Attributes: []
+    BaseInterfaces: null
+    BaseType: null
+    Constructors: null
+    Description: null
+    Events: null
+    Fields: null
+    FullName: &o129 TestProject2.Models.MyTestDelegate
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: null
+    Methods: null
+    Module: TestProject2.dll
+    Name: MyTestDelegate
+    Namespace: TestProject2.Models
+    NestedTypes: null
+    Properties: null
+    SubTypes: null
+    TypeForm: Delegate
+    Version: *o11
+    XmlName: T:TestProject2.Models.MyTestDelegate
+Events:
+  - Attributes: []
+    DeclaredType: *o46
+    Description: null
+    FullName: &o138 TestProject2.Models.TestGenericClass`2.MyTestEvent
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o140 MyTestEvent
+    Namespace: *o50
+    ShortName: *o140
+    TypeForm: Event
+    Version: *o11
+    XmlName: E:TestProject2.Models.TestGenericClass`2.MyTestEvent
+Fields:
+  - Attributes: []
+    ConstValue: null
+    DeclaredType: *o29
+    Description: null
+    FieldType: &o146 System.Int32
+    FullName: &o147 TestProject2.Models.TestClassWithInheritance1.TestProtectedField
+    IsEnumElement: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o149 TestProtectedField
+    Namespace: *o34
+    ShortName: *o149
+    TypeForm: &o150 Field
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestClassWithInheritance1.TestProtectedField
+  - Attributes: []
+    ConstValue: null
+    DeclaredType: *o29
+    Description: null
+    FieldType: *o146
+    FullName: &o154 TestProject2.Models.TestClassWithInheritance1.TestInternalField
+    IsEnumElement: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o156 TestInternalField
+    Namespace: *o34
+    ShortName: *o156
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestClassWithInheritance1.TestInternalField
+  - Attributes: []
+    ConstValue: null
+    DeclaredType: *o29
+    Description: null
+    FieldType: *o146
+    FullName: &o160 TestProject2.Models.TestClassWithInheritance1.TestPublicField
+    IsEnumElement: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o162 TestPublicField
+    Namespace: *o34
+    ShortName: *o162
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestClassWithInheritance1.TestPublicField
+  - Attributes: []
+    ConstValue:
+      Base10Value: 228
+      Base16Value: null
+      Value: 228
+    DeclaredType: *o29
+    Description: "<member name=\"F:TestProject2.Models.TestClassWithInheritance1.SomeConst\">\r\n  <summary>\r\n            константааааа\r\n            </summary>\r\n</member>"
+    FieldType: *o146
+    FullName: &o170 TestProject2.Models.TestClassWithInheritance1.SomeConst
+    IsEnumElement: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o172 SomeConst
+    Namespace: *o34
+    ShortName: *o172
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestClassWithInheritance1.SomeConst
+  - Attributes: []
+    ConstValue:
+      Base10Value: 0
+      Base16Value: 0000000000000000
+      Value: &o179 One
+    DeclaredType: &o180 TestEnum1
+    Description: "<member name=\"F:TestProject2.Models.TestEnum1.One\">\r\n  <summary>\r\n            Enum.One\r\n            </summary>\r\n</member>"
+    FieldType: &o182 TestProject2.Models.TestEnum1
+    FullName: &o183 TestProject2.Models.TestEnum1.One
+    IsEnumElement: true
+    IsTargetType: false
+    Module: TestProject2.dll
+    Name: *o179
+    Namespace: &o185 TestProject2.Models
+    ShortName: *o179
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestEnum1.One
+  - Attributes: []
+    ConstValue:
+      Base10Value: 1
+      Base16Value: 000000000000F03F
+      Value: &o192 Two
+    DeclaredType: *o180
+    Description: "<member name=\"F:TestProject2.Models.TestEnum1.Two\">\r\n  <summary>\r\n            Enum.Two\r\n            </summary>\r\n</member>"
+    FieldType: *o182
+    FullName: &o194 TestProject2.Models.TestEnum1.Two
+    IsEnumElement: true
+    IsTargetType: false
+    Module: TestProject2.dll
+    Name: *o192
+    Namespace: *o185
+    ShortName: *o192
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestEnum1.Two
+  - Attributes: []
+    ConstValue:
+      Base10Value: 2
+      Base16Value: 0000000000000040
+      Value: &o202 Three
+    DeclaredType: *o180
+    Description: "<member name=\"F:TestProject2.Models.TestEnum1.Three\">\r\n  <summary>\r\n            Enum.Three\r\n            </summary>\r\n</member>"
+    FieldType: *o182
+    FullName: &o204 TestProject2.Models.TestEnum1.Three
+    IsEnumElement: true
+    IsTargetType: false
+    Module: TestProject2.dll
+    Name: *o202
+    Namespace: *o185
+    ShortName: *o202
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestEnum1.Three
+  - Attributes:
+      - &o209 System.Security.SecurityCriticalAttribute
+    ConstValue: null
+    DeclaredType: &o210 Delegate
+    Description: null
+    FieldType: &o211 System.Object
+    FullName: System.Delegate._target
+    IsEnumElement: false
+    IsTargetType: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: &o214 _target
+    Namespace: &o215 System
+    ShortName: *o214
+    TypeForm: *o150
+    Version: *o11
+    XmlName: null
+  - Attributes:
+      - *o209
+    ConstValue: null
+    DeclaredType: *o210
+    Description: null
+    FieldType: *o211
+    FullName: System.Delegate._methodBase
+    IsEnumElement: false
+    IsTargetType: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: &o220 _methodBase
+    Namespace: *o215
+    ShortName: *o220
+    TypeForm: *o150
+    Version: *o11
+    XmlName: null
+  - Attributes:
+      - *o209
+    ConstValue: null
+    DeclaredType: *o210
+    Description: null
+    FieldType: &o223 System.IntPtr
+    FullName: System.Delegate._methodPtr
+    IsEnumElement: false
+    IsTargetType: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: &o226 _methodPtr
+    Namespace: *o215
+    ShortName: *o226
+    TypeForm: *o150
+    Version: *o11
+    XmlName: null
+  - Attributes:
+      - *o209
+    ConstValue: null
+    DeclaredType: *o210
+    Description: null
+    FieldType: *o223
+    FullName: System.Delegate._methodPtrAux
+    IsEnumElement: false
+    IsTargetType: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: &o231 _methodPtrAux
+    Namespace: *o215
+    ShortName: *o231
+    TypeForm: *o150
+    Version: *o11
+    XmlName: null
+  - Attributes: []
+    ConstValue: null
+    DeclaredType: &o234 TestStruct1
+    Description: null
+    FieldType: *o146
+    FullName: &o235 TestProject2.Models.TestStruct1.TestPublicStaticField
+    IsEnumElement: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o237 TestPublicStaticField
+    Namespace: &o238 TestProject2.Models
+    ShortName: *o237
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestStruct1.TestPublicStaticField
+  - Attributes: []
+    ConstValue: null
+    DeclaredType: *o234
+    Description: null
+    FieldType: *o146
+    FullName: &o242 TestProject2.Models.TestStruct1.TestInternalStaticField
+    IsEnumElement: false
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: &o244 TestInternalStaticField
+    Namespace: *o238
+    ShortName: *o244
+    TypeForm: *o150
+    Version: *o11
+    XmlName: F:TestProject2.Models.TestStruct1.TestInternalStaticField
+FilePath: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B5/XmlDocGenerator/src/TestProject2/bin/Debug/TestProject2.dll
+Methods:
+  - ArgsTypes:
+      - System.Object obj
+    Attributes:
+      - &o252 System.Security.SecuritySafeCriticalAttribute
+      - &o253 __DynamicallyInvokableAttribute
+    DeclaredType: &o254 Attribute
+    Description: null
+    FullName: System.Boolean System.Attribute.Equals(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean Equals(System.Object )
+    Namespace: &o258 System
+    ReturnType: &o259 System.Boolean
+    ShortName: Equals
+    TypeForm: &o261 Method
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o253
+      - *o252
+    DeclaredType: *o254
+    Description: null
+    FullName: System.Int32 System.Attribute.GetHashCode()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Int32 GetHashCode()
+    Namespace: *o258
+    ReturnType: &o268 System.Int32
+    ShortName: GetHashCode
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object obj
+    Attributes: []
+    DeclaredType: *o254
+    Description: null
+    FullName: System.Boolean System.Attribute.Match(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean Match(System.Object )
+    Namespace: *o258
+    ReturnType: *o259
+    ShortName: Match
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o254
+    Description: null
+    FullName: System.Boolean System.Attribute.IsDefaultAttribute()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean IsDefaultAttribute()
+    Namespace: *o258
+    ReturnType: *o259
+    ShortName: IsDefaultAttribute
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o253
+    DeclaredType: &o288 Object
+    Description: null
+    FullName: System.String System.Object.ToString()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.String ToString()
+    Namespace: &o292 System
+    ReturnType: &o293 System.String
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o288
+    Description: null
+    FullName: System.Type System.Object.GetType()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Type GetType()
+    Namespace: *o292
+    ReturnType: System.Type
+    ShortName: GetType
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
+      - System.Runtime.Versioning.NonVersionableAttribute
+      - *o253
+    DeclaredType: *o288
+    Description: null
+    FullName: System.Void System.Object.Finalize()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Void Finalize()
+    Namespace: *o292
+    ReturnType: &o311 System.Void
+    ShortName: Finalize
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o288
+    Description: null
+    FullName: System.Object System.Object.MemberwiseClone()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Object MemberwiseClone()
+    Namespace: *o292
+    ReturnType: System.Object
+    ShortName: MemberwiseClone
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o324 System.String TestProject2.Models.TestClassWithInheritance1.ToString()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.String ToString()
+    Namespace: *o34
+    ReturnType: *o293
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.ToString
+  - ArgsTypes:
+      - List<TestClassWithOneInterface1> list
+      - System.Single floatNumber
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o334 System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.List`1[[TestProject2.Models.TestClassWithInheritance1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] TestProject2.Models.TestClassWithInheritance1.TestReturnListMethod(List<TestClassWithOneInterface1>, System.Single )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: IEnumerable<List<TestClassWithInheritance1>> TestReturnListMethod(List<TestClassWithOneInterface1>, System.Single )
+    Namespace: *o34
+    ReturnType: IEnumerable<List<TestClassWithInheritance1>>
+    ShortName: TestReturnListMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestReturnListMethod(System.Collections.Generic.List`1[[TestProject1.Models.TestClassWithOneInterface1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]],System.Single)
+  - ArgsTypes:
+      - System.Int32 param1
+      - System.String param2
+    Attributes: []
+    DeclaredType: *o29
+    Description: "<member name=\"M:TestProject2.Models.TestClassWithInheritance1.TestMethodWithTwoParams1(System.Int32,System.String)\">\r\n  <summary>\r\n            overriding TestMethodWithTwoParams1 <![CDATA[kbsfg;jabng>?<param name=\"<M<<dmffgljnafsg\"></param>]]></summary>\r\n  <param name=\"param1\"> int </param>\r\n  <param name=\"param2\"> string </param>\r\n</member>"
+    FullName: &o346 System.Void TestProject2.Models.TestClassWithInheritance1.TestMethodWithTwoParams1(System.Int32, System.String )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.Void TestMethodWithTwoParams1(System.Int32, System.String )
+    Namespace: *o34
+    ReturnType: *o311
+    ShortName: TestMethodWithTwoParams1
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestMethodWithTwoParams1(System.Int32,System.String)
+  - ArgsTypes:
+      - System.Int32 param1
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o355 System.Void TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod(System.Int32 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Void TestOverrideMethod(System.Int32 )
+    Namespace: *o34
+    ReturnType: *o311
+    ShortName: TestOverrideMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod(System.Int32)
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o363 System.Void TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Void TestOverrideMethod()
+    Namespace: *o34
+    ReturnType: *o311
+    ShortName: TestOverrideMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod
+  - ArgsTypes:
+      - System.String param
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o372 System.Void TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod(System.String )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Void TestOverrideMethod(System.String )
+    Namespace: *o34
+    ReturnType: *o311
+    ShortName: TestOverrideMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod(System.String)
+  - ArgsTypes:
+      - System.String param1
+      - System.Int32 param2
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o382 System.Void TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod(System.String, System.Int32 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Void TestOverrideMethod(System.String, System.Int32 )
+    Namespace: *o34
+    ReturnType: *o311
+    ShortName: TestOverrideMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestOverrideMethod(System.String,System.Int32)
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o29
+    Description: null
+    FullName: &o390 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1 TestProject2.Models.TestClassWithInheritance1.TestGenericMethod()
+    Generics:
+      T:
+        - TestProject2.Models.TestClassWithInheritance1+TestNestedInheritanceClass1
+        - &o395 TestProject2.Models.ITestInterface1
+    IsGeneric: true
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: TestProject2.Models.TestClassWithInheritance1+TestNestedClass1 TestGenericMethod()
+    Namespace: *o34
+    ReturnType: TestProject2.Models.TestClassWithInheritance1+TestNestedClass1
+    ShortName: TestGenericMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestClassWithInheritance1.TestGenericMethod
+  - ArgsTypes:
+      - System.Int32 param1
+    Attributes: []
+    DeclaredType: &o405 TestClassWithTwoInterfaces1
+    Description: null
+    FullName: &o406 System.Void TestProject1.Models.TestClassWithTwoInterfaces1.TestMethodWithOneParam1(System.Int32 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: TestProject1.dll
+    Name: System.Void TestMethodWithOneParam1(System.Int32 )
+    Namespace: &o409 TestProject1.Models
+    ReturnType: *o311
+    ShortName: TestMethodWithOneParam1
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - TestProject1.TestInterfaces.ITestInterface1 param1
+    Attributes: []
+    DeclaredType: *o405
+    Description: null
+    FullName: &o415 System.String TestProject1.Models.TestClassWithTwoInterfaces1.TestMethodWithOneParam1(TestProject1.TestInterfaces.ITestInterface1 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: TestProject1.dll
+    Name: System.String TestMethodWithOneParam1(TestProject1.TestInterfaces.ITestInterface1 )
+    Namespace: *o409
+    ReturnType: *o293
+    ShortName: TestMethodWithOneParam1
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object obj
+    Attributes:
+      - *o253
+    DeclaredType: *o288
+    Description: null
+    FullName: &o423 System.Boolean System.Object.Equals(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean Equals(System.Object )
+    Namespace: *o292
+    ReturnType: *o259
+    ShortName: Equals
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o253
+    DeclaredType: *o288
+    Description: null
+    FullName: &o430 System.Int32 System.Object.GetHashCode()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Int32 GetHashCode()
+    Namespace: *o292
+    ReturnType: *o268
+    ShortName: GetHashCode
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+    DeclaredType: &o437 Enum
+    Description: null
+    FullName: &o438 System.Object System.Enum.GetValue()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Object GetValue()
+    Namespace: &o441 System
+    ReturnType: System.Object
+    ShortName: GetValue
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object obj
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o437
+    Description: null
+    FullName: &o448 System.Boolean System.Enum.Equals(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean Equals(System.Object )
+    Namespace: *o441
+    ReturnType: &o451 System.Boolean
+    ShortName: Equals
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o253
+      - *o252
+    DeclaredType: *o437
+    Description: null
+    FullName: &o456 System.Int32 System.Enum.GetHashCode()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Int32 GetHashCode()
+    Namespace: *o441
+    ReturnType: &o459 System.Int32
+    ShortName: GetHashCode
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o253
+    DeclaredType: *o437
+    Description: null
+    FullName: &o464 System.String System.Enum.ToString()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.String ToString()
+    Namespace: *o441
+    ReturnType: &o467 System.String
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.String format
+      - System.IFormatProvider provider
+    Attributes:
+      - &o474 System.ObsoleteAttribute
+    DeclaredType: *o437
+    Description: null
+    FullName: &o475 System.String System.Enum.ToString(System.String, System.IFormatProvider )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.String ToString(System.String, System.IFormatProvider )
+    Namespace: *o441
+    ReturnType: *o467
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object target
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o437
+    Description: null
+    FullName: &o483 System.Int32 System.Enum.CompareTo(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Int32 CompareTo(System.Object )
+    Namespace: *o441
+    ReturnType: *o459
+    ShortName: CompareTo
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.String format
+    Attributes:
+      - *o253
+    DeclaredType: *o437
+    Description: null
+    FullName: &o491 System.String System.Enum.ToString(System.String )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.String ToString(System.String )
+    Namespace: *o441
+    ReturnType: *o467
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.IFormatProvider provider
+    Attributes:
+      - *o474
+    DeclaredType: *o437
+    Description: null
+    FullName: &o499 System.String System.Enum.ToString(System.IFormatProvider )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.String ToString(System.IFormatProvider )
+    Namespace: *o441
+    ReturnType: *o467
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Enum flag
+    Attributes:
+      - *o253
+      - *o252
+    DeclaredType: *o437
+    Description: null
+    FullName: &o507 System.Boolean System.Enum.HasFlag(System.Enum )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean HasFlag(System.Enum )
+    Namespace: *o441
+    ReturnType: *o451
+    ShortName: HasFlag
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o437
+    Description: null
+    FullName: &o514 System.TypeCode System.Enum.GetTypeCode()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.TypeCode GetTypeCode()
+    Namespace: *o441
+    ReturnType: System.TypeCode
+    ShortName: GetTypeCode
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - TestProject2.Models.TestEnum1 param1
+      - TestProject2.Models.TestStruct1 param2
+    Attributes: []
+    DeclaredType: &o524 ITestInterface1
+    Description: "<member name=\"M:TestProject2.Models.ITestInterface1.TestMethod(TestProject2.Models.TestEnum1,TestProject2.Models.TestStruct1)\">\r\n  <summary>\r\n            TestMethod\r\n            </summary>\r\n  <param name=\"param1\">TestEnum1</param>\r\n  <param name=\"param2\">TestStruct1</param>\r\n</member>"
+    FullName: &o526 System.Void TestProject2.Models.ITestInterface1.TestMethod(TestProject2.Models.TestEnum1, TestProject2.Models.TestStruct1 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.Void TestMethod(TestProject2.Models.TestEnum1, TestProject2.Models.TestStruct1 )
+    Namespace: &o529 TestProject2.Models
+    ReturnType: System.Void
+    ShortName: TestMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.ITestInterface1.TestMethod(TestProject2.Models.TestEnum1,TestProject2.Models.TestStruct1)
+  - ArgsTypes:
+      - TU parametr
+    Attributes: []
+    DeclaredType: *o46
+    Description: null
+    FullName: &o537 ' TestProject2.Models.TestGenericClass`2.TestGenericMethod1( )'
+    Generics:
+      TU:
+        - TestProject2.Models.TestClassWithInheritance1
+    IsGeneric: true
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: T TestGenericMethod1( )
+    Namespace: *o50
+    ReturnType: T
+    ShortName: TestGenericMethod1
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestGenericClass`2.TestGenericMethod1
+  - ArgsTypes: []
+    Attributes:
+      - &o550 TestProject2.Models.TestAttribute
+    DeclaredType: *o46
+    Description: null
+    FullName: &o551 System.String TestProject2.Models.TestGenericClass`2.TestGenericClass_MyTestEvent()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.String TestGenericClass_MyTestEvent()
+    Namespace: *o50
+    ReturnType: &o554 System.String
+    ShortName: TestGenericClass_MyTestEvent
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestGenericClass`2.TestGenericClass_MyTestEvent
+  - ArgsTypes: []
+    Attributes:
+      - *o550
+    DeclaredType: *o46
+    Description: null
+    FullName: &o560 System.String TestProject2.Models.TestGenericClass`2.TestEventMethod()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.String TestEventMethod()
+    Namespace: *o50
+    ReturnType: *o554
+    ShortName: TestEventMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestGenericClass`2.TestEventMethod
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o46
+    Description: null
+    FullName: &o568 System.String TestProject2.Models.TestGenericClass`2.ToString()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.String ToString()
+    Namespace: *o50
+    ReturnType: *o554
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestGenericClass`2.ToString
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o57
+    Description: null
+    FullName: System.String TestProject2.Models.MyTestDelegate.Invoke()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.String Invoke()
+    Namespace: *o61
+    ReturnType: *o554
+    ShortName: Invoke
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.MyTestDelegate.Invoke
+  - ArgsTypes:
+      - System.AsyncCallback callback
+      - System.Object object
+    Attributes: []
+    DeclaredType: *o57
+    Description: null
+    FullName: System.IAsyncResult TestProject2.Models.MyTestDelegate.BeginInvoke(System.AsyncCallback, System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.IAsyncResult BeginInvoke(System.AsyncCallback, System.Object )
+    Namespace: *o61
+    ReturnType: System.IAsyncResult
+    ShortName: BeginInvoke
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.MyTestDelegate.BeginInvoke(System.AsyncCallback,System.Object)
+  - ArgsTypes:
+      - System.IAsyncResult result
+    Attributes: []
+    DeclaredType: *o57
+    Description: null
+    FullName: System.String TestProject2.Models.MyTestDelegate.EndInvoke(System.IAsyncResult )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.String EndInvoke(System.IAsyncResult )
+    Namespace: *o61
+    ReturnType: *o554
+    ShortName: EndInvoke
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.MyTestDelegate.EndInvoke(System.IAsyncResult)
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+    DeclaredType: &o604 MulticastDelegate
+    Description: null
+    FullName: System.Boolean System.MulticastDelegate.IsUnmanagedFunctionPtr()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean IsUnmanagedFunctionPtr()
+    Namespace: &o608 System
+    ReturnType: &o609 System.Boolean
+    ShortName: IsUnmanagedFunctionPtr
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Boolean System.MulticastDelegate.InvocationListLogicallyNull()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean InvocationListLogicallyNull()
+    Namespace: *o608
+    ReturnType: *o609
+    ShortName: InvocationListLogicallyNull
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Runtime.Serialization.SerializationInfo info
+      - System.Runtime.Serialization.StreamingContext context
+    Attributes:
+      - *o209
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Void System.MulticastDelegate.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext )
+    Namespace: *o608
+    ReturnType: &o626 System.Void
+    ShortName: GetObjectData
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object obj
+    Attributes:
+      - *o253
+      - *o252
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Boolean System.MulticastDelegate.Equals(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean Equals(System.Object )
+    Namespace: *o608
+    ReturnType: *o609
+    ShortName: Equals
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object[] invocationList
+      - System.Int32 invocationCount
+    Attributes:
+      - *o209
+    DeclaredType: *o604
+    Description: null
+    FullName: System.MulticastDelegate System.MulticastDelegate.NewMulticastDelegate(System.Object[], System.Int32 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.MulticastDelegate NewMulticastDelegate(System.Object[], System.Int32 )
+    Namespace: *o608
+    ReturnType: System.MulticastDelegate
+    ShortName: NewMulticastDelegate
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Reflection.MethodInfo dynamicMethod
+    Attributes:
+      - *o209
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Void System.MulticastDelegate.StoreDynamicMethod(System.Reflection.MethodInfo )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Void StoreDynamicMethod(System.Reflection.MethodInfo )
+    Namespace: *o608
+    ReturnType: *o626
+    ShortName: StoreDynamicMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Delegate follow
+    Attributes:
+      - *o252
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Delegate System.MulticastDelegate.CombineImpl(System.Delegate )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Delegate CombineImpl(System.Delegate )
+    Namespace: *o608
+    ReturnType: &o661 System.Delegate
+    ShortName: CombineImpl
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Delegate value
+    Attributes:
+      - *o252
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Delegate System.MulticastDelegate.RemoveImpl(System.Delegate )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Delegate RemoveImpl(System.Delegate )
+    Namespace: *o608
+    ReturnType: *o661
+    ShortName: RemoveImpl
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Delegate[] System.MulticastDelegate.GetInvocationList()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Delegate[] GetInvocationList()
+    Namespace: *o608
+    ReturnType: System.Delegate[]
+    ShortName: GetInvocationList
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Int32 System.MulticastDelegate.GetHashCode()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Int32 GetHashCode()
+    Namespace: *o608
+    ReturnType: &o685 System.Int32
+    ShortName: GetHashCode
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Object System.MulticastDelegate.GetTarget()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Object GetTarget()
+    Namespace: *o608
+    ReturnType: &o693 System.Object
+    ShortName: GetTarget
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+    DeclaredType: *o604
+    Description: null
+    FullName: System.Reflection.MethodInfo System.MulticastDelegate.GetMethodImpl()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Reflection.MethodInfo GetMethodImpl()
+    Namespace: *o608
+    ReturnType: System.Reflection.MethodInfo
+    ShortName: GetMethodImpl
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object[] args
+    Attributes:
+      - *o253
+    DeclaredType: *o210
+    Description: null
+    FullName: System.Object System.Delegate.DynamicInvoke(System.Object[] )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Object DynamicInvoke(System.Object[] )
+    Namespace: *o215
+    ReturnType: *o693
+    ShortName: DynamicInvoke
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object[] args
+    Attributes:
+      - *o252
+    DeclaredType: *o210
+    Description: null
+    FullName: System.Object System.Delegate.DynamicInvokeImpl(System.Object[] )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Object DynamicInvokeImpl(System.Object[] )
+    Namespace: *o215
+    ReturnType: *o693
+    ShortName: DynamicInvokeImpl
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o210
+    Description: null
+    FullName: System.Object System.Delegate.Clone()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Object Clone()
+    Namespace: *o215
+    ReturnType: *o693
+    ShortName: Clone
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o209
+    DeclaredType: *o210
+    Description: null
+    FullName: System.IntPtr System.Delegate.GetMulticastInvoke()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.IntPtr GetMulticastInvoke()
+    Namespace: *o215
+    ReturnType: &o732 System.IntPtr
+    ShortName: GetMulticastInvoke
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o209
+    DeclaredType: *o210
+    Description: null
+    FullName: System.IntPtr System.Delegate.GetInvokeMethod()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.IntPtr GetInvokeMethod()
+    Namespace: *o215
+    ReturnType: *o732
+    ShortName: GetInvokeMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o210
+    Description: null
+    FullName: System.IRuntimeMethodInfo System.Delegate.FindMethodHandle()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.IRuntimeMethodInfo FindMethodHandle()
+    Namespace: *o215
+    ReturnType: System.IRuntimeMethodInfo
+    ShortName: FindMethodHandle
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.Object target
+      - System.IntPtr methodPtr
+    Attributes:
+      - *o209
+    DeclaredType: *o210
+    Description: null
+    FullName: System.IntPtr System.Delegate.AdjustTarget(System.Object, System.IntPtr )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.IntPtr AdjustTarget(System.Object, System.IntPtr )
+    Namespace: *o215
+    ReturnType: *o732
+    ShortName: AdjustTarget
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - System.IntPtr methodPtr
+    Attributes:
+      - *o209
+    DeclaredType: *o210
+    Description: null
+    FullName: System.IntPtr System.Delegate.GetCallStub(System.IntPtr )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.IntPtr GetCallStub(System.IntPtr )
+    Namespace: *o215
+    ReturnType: *o732
+    ShortName: GetCallStub
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o234
+    Description: null
+    FullName: &o769 System.Int32 TestProject2.Models.TestStruct1.TestPublicStaticMethod()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Int32 TestPublicStaticMethod()
+    Namespace: *o238
+    ReturnType: *o685
+    ShortName: TestPublicStaticMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestStruct1.TestPublicStaticMethod
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o234
+    Description: null
+    FullName: &o777 System.Int32 TestProject2.Models.TestStruct1.TestInternalStaticMethod()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Int32 TestInternalStaticMethod()
+    Namespace: *o238
+    ReturnType: *o685
+    ShortName: TestInternalStaticMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestStruct1.TestInternalStaticMethod
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o234
+    Description: "<member name=\"M:TestProject2.Models.TestStruct1.TestMethod1\">\r\n  <summary>\r\n            TestMethod1 \r\n            </summary>\r\n</member>"
+    FullName: &o786 System.Void TestProject2.Models.TestStruct1.TestMethod1()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Void TestMethod1()
+    Namespace: *o238
+    ReturnType: *o626
+    ShortName: TestMethod1
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestStruct1.TestMethod1
+  - ArgsTypes: []
+    Attributes: []
+    DeclaredType: *o234
+    Description: "<member name=\"M:TestProject2.Models.TestStruct1.TestMethod2\">\r\n  <summary>\r\n            TestMethod2\r\n            </summary>\r\n  <returns> int </returns>\r\n</member>"
+    FullName: &o795 System.Int32 TestProject2.Models.TestStruct1.TestMethod2()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.Int32 TestMethod2()
+    Namespace: *o238
+    ReturnType: *o685
+    ShortName: TestMethod2
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestStruct1.TestMethod2
+  - ArgsTypes:
+      - System.Int32 param1
+    Attributes: []
+    DeclaredType: *o234
+    Description: "<member name=\"M:TestProject2.Models.TestStruct1.TestMethod3(System.Int32)\">\r\n  <summary>\r\n            TestMethod3\r\n            </summary>\r\n  <param name=\"param1\"> int </param>\r\n  <returns> string </returns>\r\n</member>"
+    FullName: &o805 System.String TestProject2.Models.TestStruct1.TestMethod3(System.Int32 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: System.String TestMethod3(System.Int32 )
+    Namespace: *o238
+    ReturnType: *o554
+    ShortName: TestMethod3
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestStruct1.TestMethod3(System.Int32)
+  - ArgsTypes:
+      - System.Object obj
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: &o814 ValueType
+    Description: null
+    FullName: &o815 System.Boolean System.ValueType.Equals(System.Object )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Boolean Equals(System.Object )
+    Namespace: &o818 System
+    ReturnType: *o609
+    ShortName: Equals
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o252
+      - *o253
+    DeclaredType: *o814
+    Description: null
+    FullName: &o823 System.Int32 System.ValueType.GetHashCode()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.Int32 GetHashCode()
+    Namespace: *o818
+    ReturnType: *o685
+    ShortName: GetHashCode
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes: []
+    Attributes:
+      - *o253
+    DeclaredType: *o814
+    Description: null
+    FullName: &o830 System.String System.ValueType.ToString()
+    Generics: null
+    IsGeneric: false
+    IsTargetType: false
+    IsVirtual: true
+    Module: CommonLanguageRuntimeLibrary
+    Name: System.String ToString()
+    Namespace: *o818
+    ReturnType: *o554
+    ShortName: ToString
+    TypeForm: *o261
+    Version: *o11
+    XmlName: null
+  - ArgsTypes:
+      - TestProject2.Models.TestEnum1 param1
+      - TestProject2.Models.TestStruct1 param2
+    Attributes: []
+    DeclaredType: &o839 TestStructWithInterface1
+    Description: "<member name=\"M:TestProject2.Models.TestStructWithInterface1.TestMethod(TestProject2.Models.TestEnum1,TestProject2.Models.TestStruct1)\">\r\n  <inheritdoc />\r\n  <summary>\r\n            inheritdoc TestMethod\r\n            </summary>\r\n  <exception cref=\"T:System.ArgumentException\"></exception>\r\n  <param name=\"param1\">inheritdoc TestEnum1</param>\r\n  <param name=\"param2\">inheritdoc TestStruct1</param>\r\n</member>"
+    FullName: &o841 System.Void TestProject2.Models.TestStructWithInterface1.TestMethod(TestProject2.Models.TestEnum1, TestProject2.Models.TestStruct1 )
+    Generics: null
+    IsGeneric: false
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: System.Void TestMethod(TestProject2.Models.TestEnum1, TestProject2.Models.TestStruct1 )
+    Namespace: &o844 TestProject2.Models
+    ReturnType: *o626
+    ShortName: TestMethod
+    TypeForm: *o261
+    Version: *o11
+    XmlName: M:TestProject2.Models.TestStructWithInterface1.TestMethod(TestProject2.Models.TestEnum1,TestProject2.Models.TestStruct1)
+Namespaces:
+  - Attributes:
+      - *o6
+    Classes:
+      - &o851 TestProject2.Models.TestClassWithInheritance1
+      - &o852 TestProject2.Models.TestGenericClass`2
+      - &o853 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1
+      - &o854 TestProject2.Models.TestClassWithInheritance1.TestNestedProtectedClass1
+      - &o855 TestProject2.Models.TestClassWithInheritance1.TestNestedInternalClass1
+      - &o856 TestProject2.Models.TestClassWithInheritance1.TestNestedInheritanceClass1
+      - &o857 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInPublicClass1
+      - &o858 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInProtectedClass1
+      - &o859 TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInInternalClass1
+    Delegates:
+      - *o129
+    Description: null
+    Enums:
+      - &o862 TestProject2.Models.TestEnum1
+    FullName: *o9
+    Interfaces:
+      - &o864 TestProject2.Models.ITestInterface1
+    IsTargetType: true
+    Module: TestProject2.dll
+    Name: *o9
+    Namespace: *o9
+    Structs:
+      - &o867 TestProject2.Models.TestStruct1
+      - &o868 TestProject2.Models.TestStructWithInterface1
+    TypeForm: Namespace
+    Version: *o11
+    XmlName: null
+Properties:
+  - Attributes: []
+    DeclaredType: *o254
+    Description: null
+    FieldType: *o211
+    FullName: System.Attribute.TypeId { get; }
+    IsGetter: true
+    IsSetter: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: TypeId { get; }
+    Namespace: *o258
+    ShortName: TypeId
+    TypeForm: &o877 Property
+    Version: *o11
+    XmlName: null
+  - Attributes: []
+    DeclaredType: *o405
+    Description: null
+    FieldType: TestProject1.TestInterfaces.ITestInterface1
+    FullName: &o881 TestProject1.Models.TestClassWithTwoInterfaces1.TestPropertyTestInterface1 { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: false
+    IsVirtual: true
+    Module: TestProject1.dll
+    Name: TestPropertyTestInterface1 { get; set; }
+    Namespace: &o884 TestProject1.Models
+    ShortName: TestPropertyTestInterface1
+    TypeForm: *o877
+    Version: *o11
+    XmlName: null
+  - Attributes: []
+    DeclaredType: *o405
+    Description: null
+    FieldType: *o146
+    FullName: &o888 TestProject1.Models.TestClassWithTwoInterfaces1.TestProperty1 { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: false
+    IsVirtual: true
+    Module: TestProject1.dll
+    Name: TestProperty1 { get; set; }
+    Namespace: *o884
+    ShortName: TestProperty1
+    TypeForm: *o877
+    Version: *o11
+    XmlName: null
+  - Attributes: []
+    DeclaredType: *o524
+    Description: "<member name=\"P:TestProject2.Models.ITestInterface1.TestEnum1\">\r\n  <summary>\r\n            TestEnum1\r\n            </summary>\r\n</member>"
+    FieldType: *o182
+    FullName: &o895 TestProject2.Models.ITestInterface1.TestEnum1 { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: TestEnum1 { get; set; }
+    Namespace: *o529
+    ShortName: TestEnum1
+    TypeForm: *o877
+    Version: *o11
+    XmlName: P:TestProject2.Models.ITestInterface1.TestEnum1
+  - Attributes: []
+    DeclaredType: *o524
+    Description: "<member name=\"P:TestProject2.Models.ITestInterface1.TestStruct1\">\r\n  <summary>\r\n            TestStruct1\r\n            </summary>\r\n</member>"
+    FieldType: &o903 TestProject2.Models.TestStruct1
+    FullName: &o904 TestProject2.Models.ITestInterface1.TestStruct1 { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: TestStruct1 { get; set; }
+    Namespace: *o529
+    ShortName: TestStruct1
+    TypeForm: *o877
+    Version: *o11
+    XmlName: P:TestProject2.Models.ITestInterface1.TestStruct1
+  - Attributes:
+      - *o253
+    DeclaredType: *o210
+    Description: null
+    FieldType: System.Reflection.MethodInfo
+    FullName: System.Delegate.Method { get; }
+    IsGetter: true
+    IsSetter: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: Method { get; }
+    Namespace: *o215
+    ShortName: Method
+    TypeForm: *o877
+    Version: *o11
+    XmlName: null
+  - Attributes:
+      - *o253
+    DeclaredType: *o210
+    Description: null
+    FieldType: *o211
+    FullName: System.Delegate.Target { get; }
+    IsGetter: true
+    IsSetter: false
+    IsTargetType: false
+    IsVirtual: false
+    Module: CommonLanguageRuntimeLibrary
+    Name: Target { get; }
+    Namespace: *o215
+    ShortName: Target
+    TypeForm: *o877
+    Version: *o11
+    XmlName: null
+  - Attributes: []
+    DeclaredType: *o234
+    Description: null
+    FieldType: *o146
+    FullName: &o924 TestProject2.Models.TestStruct1.TestPublicStaticProperty { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: TestPublicStaticProperty { get; set; }
+    Namespace: *o238
+    ShortName: TestPublicStaticProperty
+    TypeForm: *o877
+    Version: *o11
+    XmlName: P:TestProject2.Models.TestStruct1.TestPublicStaticProperty
+  - Attributes: []
+    DeclaredType: *o234
+    Description: null
+    FieldType: *o146
+    FullName: &o931 TestProject2.Models.TestStruct1.TestInternalStaticProperty { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: true
+    IsVirtual: false
+    Module: TestProject2.dll
+    Name: TestInternalStaticProperty { get; set; }
+    Namespace: *o238
+    ShortName: TestInternalStaticProperty
+    TypeForm: *o877
+    Version: *o11
+    XmlName: P:TestProject2.Models.TestStruct1.TestInternalStaticProperty
+  - Attributes: []
+    DeclaredType: *o839
+    Description: null
+    FieldType: *o182
+    FullName: &o938 TestProject2.Models.TestStructWithInterface1.TestEnum1 { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: TestEnum1 { get; set; }
+    Namespace: *o844
+    ShortName: TestEnum1
+    TypeForm: *o877
+    Version: *o11
+    XmlName: P:TestProject2.Models.TestStructWithInterface1.TestEnum1
+  - Attributes: []
+    DeclaredType: *o839
+    Description: null
+    FieldType: *o903
+    FullName: &o945 TestProject2.Models.TestStructWithInterface1.TestStruct1 { get; set; }
+    IsGetter: true
+    IsSetter: true
+    IsTargetType: true
+    IsVirtual: true
+    Module: TestProject2.dll
+    Name: TestStruct1 { get; set; }
+    Namespace: *o844
+    ShortName: TestStruct1
+    TypeForm: *o877
+    Version: *o11
+    XmlName: P:TestProject2.Models.TestStructWithInterface1.TestStruct1
+Types:
+  - Attributes: []
+    BaseInterfaces:
+      - TestProject1.TestInterfaces.ITestInterface1
+      - TestProject1.TestInterfaces.ITestInterface2
+    BaseType: TestProject1.Models.TestClassWithTwoInterfaces1
+    Constructors:
+      - *o31
+      - *o39
+    Description: "<member name=\"T:TestProject2.Models.TestClassWithInheritance1\">\r\n  <summary>\r\n            TestClassWithInheritance1:TestClassWithTwoInterfaces1\r\n            </summary>\r\n</member>"
+    Events: []
+    Fields:
+      - *o147
+      - *o154
+      - *o160
+      - *o170
+    FullName: *o851
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: *o29
+    Methods:
+      - *o324
+      - *o334
+      - *o346
+      - *o355
+      - *o363
+      - *o372
+      - *o382
+      - *o390
+      - *o406
+      - *o415
+      - *o423
+      - *o430
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestClassWithInheritance1
+    Namespace: &o967 TestProject2.Models
+    NestedTypes:
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedClass1
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedProtectedClass1
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedInternalClass1
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedInheritanceClass1
+    Properties:
+      - *o881
+      - *o888
+    SubTypes: []
+    TypeForm: &o975 Class
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1
+  - Attributes:
+      - System.FlagsAttribute
+    BaseInterfaces:
+      - System.IComparable
+      - System.IFormattable
+      - System.IConvertible
+    BaseType: System.Enum
+    Constructors: []
+    Description: "<member name=\"T:TestProject2.Models.TestEnum1\">\r\n  <summary>\r\n            TestEnum1\r\n            </summary>\r\n</member>"
+    Events: []
+    Fields:
+      - *o183
+      - *o194
+      - *o204
+    FullName: *o862
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: *o180
+    Methods:
+      - *o438
+      - *o448
+      - *o456
+      - *o464
+      - *o475
+      - *o483
+      - *o491
+      - *o499
+      - *o507
+      - *o514
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestEnum1
+    Namespace: TestProject2.Models
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: Enum
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestEnum1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: null
+    Constructors: []
+    Description: "<member name=\"T:TestProject2.Models.ITestInterface1\">\r\n  <summary>\r\n            ITestInterface1\r\n            </summary>\r\n</member>"
+    Events: []
+    Fields: []
+    FullName: *o864
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: *o524
+    Methods:
+      - *o526
+    Module: TestProject2.dll
+    Name: ITestInterface1
+    Namespace: TestProject2.Models
+    NestedTypes: []
+    Properties:
+      - *o895
+      - *o904
+    SubTypes:
+      - TestProject2.Models.TestStructWithInterface1
+    TypeForm: Interface
+    Version: *o11
+    XmlName: T:TestProject2.Models.ITestInterface1
+  - Attributes:
+      - *o550
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o47
+    Description: "<member name=\"T:TestProject2.Models.TestGenericClass`2\">\r\n  <summary></summary>\r\n  <typeparam name=\"T\"></typeparam>\r\n  <typeparam name=\"U\"></typeparam>\r\n</member>"
+    Events:
+      - *o138
+    Fields: []
+    FullName: *o852
+    Generics:
+      T:
+        - *o395
+      U: []
+    IsGeneric: true
+    IsNested: false
+    IsTargetType: true
+    MemberType: *o46
+    Methods:
+      - *o537
+      - *o551
+      - *o560
+      - *o568
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestGenericClass`2
+    Namespace: TestProject2.Models
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestGenericClass`2
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.ValueType
+    Constructors: []
+    Description: "<member name=\"T:TestProject2.Models.TestStruct1\">\r\n  <summary>\r\n            TestStruct1\r\n            </summary>\r\n</member>"
+    Events: []
+    Fields:
+      - *o235
+      - *o242
+    FullName: *o867
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: *o234
+    Methods:
+      - *o769
+      - *o777
+      - *o786
+      - *o795
+      - *o805
+      - *o815
+      - *o823
+      - *o830
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestStruct1
+    Namespace: TestProject2.Models
+    NestedTypes: []
+    Properties:
+      - *o924
+      - *o931
+    SubTypes: []
+    TypeForm: &o1062 Struct
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestStruct1
+  - Attributes: []
+    BaseInterfaces:
+      - TestProject2.Models.ITestInterface1
+    BaseType: System.ValueType
+    Constructors: []
+    Description: "<member name=\"T:TestProject2.Models.TestStructWithInterface1\">\r\n  <summary>\r\n            TestStructWithInterface1\r\n            </summary>\r\n</member>"
+    Events: []
+    Fields: []
+    FullName: *o868
+    Generics: null
+    IsGeneric: false
+    IsNested: false
+    IsTargetType: true
+    MemberType: *o839
+    Methods:
+      - *o841
+      - System.Boolean System.ValueType.Equals(System.Object )
+      - System.Int32 System.ValueType.GetHashCode()
+      - System.String System.ValueType.ToString()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestStructWithInterface1
+    Namespace: TestProject2.Models
+    NestedTypes: []
+    Properties:
+      - *o938
+      - *o945
+    SubTypes: []
+    TypeForm: *o1062
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestStructWithInterface1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o67
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o853
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o66
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedClass1
+    Namespace: *o967
+    NestedTypes:
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInPublicClass1
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInProtectedClass1
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInInternalClass1
+    Properties: []
+    SubTypes:
+      - TestProject2.Models.TestClassWithInheritance1.TestNestedInheritanceClass1
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedClass1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o76
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o854
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o75
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedProtectedClass1
+    Namespace: *o967
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedProtectedClass1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o85
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o855
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o84
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedInternalClass1
+    Namespace: *o967
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedInternalClass1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: TestProject2.Models.TestClassWithInheritance1.TestNestedClass1
+    Constructors:
+      - *o94
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o856
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o93
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedInheritanceClass1
+    Namespace: *o967
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedInheritanceClass1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o103
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o857
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o102
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedInPublicClass1
+    Namespace: &o1187 TestProject2.Models
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInPublicClass1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o112
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o858
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o111
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedInProtectedClass1
+    Namespace: *o1187
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInProtectedClass1
+  - Attributes: []
+    BaseInterfaces: []
+    BaseType: System.Object
+    Constructors:
+      - *o121
+    Description: null
+    Events: []
+    Fields: []
+    FullName: *o859
+    Generics: null
+    IsGeneric: false
+    IsNested: true
+    IsTargetType: true
+    MemberType: *o120
+    Methods:
+      - System.String System.Object.ToString()
+      - System.Boolean System.Object.Equals(System.Object )
+      - System.Int32 System.Object.GetHashCode()
+      - System.Type System.Object.GetType()
+      - System.Void System.Object.Finalize()
+      - System.Object System.Object.MemberwiseClone()
+    Module: TestProject2.dll
+    Name: TestNestedInInternalClass1
+    Namespace: *o1187
+    NestedTypes: []
+    Properties: []
+    SubTypes: []
+    TypeForm: *o975
+    Version: *o11
+    XmlName: T:TestProject2.Models.TestClassWithInheritance1.TestNestedClass1.TestNestedInInternalClass1

@@ -1,0 +1,6 @@
+﻿## Элементы
+| Имя | Десятичное значение | Шестнадцатиричное значение | Описание |
+| --- | -- | -- | -------- |
+{{#each ConstsList}}
+| {{this.ConstValue.Name}} | {{this.ConstValue.Base10Value}} | {{this.ConstValue.Base16Value}} | {{this.Description}} |
+{{/each}}

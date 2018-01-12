@@ -1,0 +1,11 @@
+
+scan --dll C:\Рабочее\XmlDocGenerator\src\TestProject1\bin\Debug\TestProject1.dll --meta C:\proj\Meta\ --verbose
+scan --dll C:\Рабочее\XmlDocGenerator\src\TestProject2\bin\Debug\TestProject2.dll --meta C:\proj\Meta\ --verbose
+scan --dll C:\Рабочее\XmlDocGenerator\src\TestProject3\bin\Debug\TestProject3.dll --meta C:\proj\Meta\ --verbose
+
+gen --meta C:\proj\Meta\ --out C:\proj\Out\ --template C:\Рабочее\XmlDocGenerator\src\XmlDocGenerator\MarkdownManager\MarkdownModels\Templates\ --verbose
+
+scan --dll C:\Рабочее\XmlDocGenerator\src\XmlDocGenerator\bin\Debug\XmlDocGenerator.exe --meta C:\proj\Meta\ --verbose
+
+
+C:\Рабочее\XmlDocGenerator\src\..\Tools\XmlDocGenerator\XmlDocGenerator.exe scan --dll C:\Рабочее\XmlDocGenerator\src\TestProject1\bin\Debug\TestProject1.dll --meta C:\Рабочее\XmlDocGenerator\src\..\Doc\Temp\ --verbose 

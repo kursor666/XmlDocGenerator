@@ -1,0 +1,6 @@
+﻿# Пространства имен
+| Пространство имен | Описание |
+| -- | -- |
+{{{#each NamespacesList}}}
+| {{{>link this}}} | {{{this.Description}}} |
+{{/each}}

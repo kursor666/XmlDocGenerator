@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1ACC63C2-80A1-4A31-A98B-B48DAE1128F8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>XmlDocGenerator</RootNamespace>
+    <AssemblyName>XmlDocGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\XmlDocGenerator.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommandLine, Version=2.0.275.0, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommandLineParser.2.1.1-beta\lib\net45\CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="Handlebars, Version=1.8.1.0, Culture=neutral, PublicKeyToken=22225d0bf33cd661, processorArchitecture=MSIL">
+      <HintPath>..\packages\Handlebars.Net.1.9.0\lib\net40\Handlebars.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpYaml, Version=1.6.1.0, Culture=neutral, PublicKeyToken=1ced8108e942bc02, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpYaml.1.6.1\lib\net45\SharpYaml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Console, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.0.0-rc2-24027\lib\net46\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.1.0-rc2-24027\lib\net462\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.1.0-rc2-24027\lib\net462\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.1.0-rc2-24027\lib\net462\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.TypeExtensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.TypeExtensions.4.1.0-rc2-24027\lib\net462\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.1.0-rc2-24027\lib\net462\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.1.0-rc2-24027\lib\net462\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MarkdownManager\MarkdownController.cs" />
+    <Compile Include="MarkdownManager\MarkdownModels\NamepacesIndexPageModel.cs" />
+    <Compile Include="Util\FieldConstValue.cs" />
+    <Compile Include="MarkdownManager\MarkdownModels\MarkdownTemplateModel.cs" />
+    <Compile Include="MarkdownManager\MarkdownModels\MdGenericsModel.cs" />
+    <Compile Include="MarkdownManager\MarkdownModels\XmlListItem.cs" />
+    <Compile Include="MarkdownManager\MarkdownModels\XmlListTagModel.cs" />
+    <Compile Include="MarkdownManager\MarkdownTemplate.cs" />
+    <Compile Include="ProjectManager\GenerateMode.cs" />
+    <Compile Include="ProjectManager\Options.cs" />
+    <Compile Include="ProjectManager\ProjectController.cs" />
+    <Compile Include="ProjectManager\ScanMode.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\AssemblyType.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\BaseAssemblyType.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalAssemblyType.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\Constructor.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\Event.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\Field.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\FieldPropertyBase.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\Method.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\MethodBaseType.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\LocalMemberTypes\Property.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\AssemblyNamespace.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReflectionManager\AssemblyTreeInfo\BaseAssemblyNamespaceType.cs" />
+    <Compile Include="ReflectionManager\ReflectionController.cs" />
+    <Compile Include="Util\BaseController.cs" />
+    <Compile Include="Util\Extensions\ListExtension.cs" />
+    <Compile Include="Util\Extensions\ObjectExtention.cs" />
+    <Compile Include="Util\TypeItems\ObjectTypeItems.cs" />
+    <Compile Include="Util\Extensions\MemberInfoExtention.cs" />
+    <Compile Include="Util\Extensions\MethodInfoExtension.cs" />
+    <Compile Include="Util\Extensions\PropertyInfoExtension.cs" />
+    <Compile Include="Util\Extensions\StringExtension.cs" />
+    <Compile Include="XmlManager\XmlController.cs" />
+    <Compile Include="Util\ReflectionObjectModelToYamlConverter.cs" />
+    <Compile Include="Util\TypeItems\StringTypeItems.cs" />
+    <Compile Include="YamlManager\YamlController.cs" />
+    <Compile Include="YamlManager\YamlModels\AssemblyTypeModel.cs" />
+    <Compile Include="YamlManager\YamlModels\BaseTypeModel.cs" />
+    <Compile Include="YamlManager\YamlModels\BaseTypeNamespaceModel.cs" />
+    <Compile Include="YamlManager\YamlModels\ConstructorModel.cs" />
+    <Compile Include="YamlManager\YamlModels\EventModel.cs" />
+    <Compile Include="YamlManager\YamlModels\FieldModel.cs" />
+    <Compile Include="YamlManager\YamlModels\FieldPropertyBaseModel.cs" />
+    <Compile Include="YamlManager\YamlModels\LocalAssemblyTypeModel.cs" />
+    <Compile Include="YamlManager\YamlModels\MethodConstructorBaseModel.cs" />
+    <Compile Include="YamlManager\YamlModels\MethodModel.cs" />
+    <Compile Include="YamlManager\YamlModels\NamespaceModel.cs" />
+    <Compile Include="YamlManager\YamlModels\PropertyModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Index.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\c.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\code.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\constElement.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\enumElement.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\link.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Main.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\listTag.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\namespace.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\para.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\paramref.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\remarks.txt" />
+    <Content Include="MarkdownManager\MarkdownModels\Templates\Partials\typeparamref.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir)XmlDocGenerator\bin\Debug\XmlDocGenerator.exe scan --dll $(TargetPath) --meta $(SolutionDir)..\Doc\Temp\ --verbose</PostBuildEvent>
+  </PropertyGroup>
+</Project>
